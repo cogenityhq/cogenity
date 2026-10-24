@@ -26,10 +26,10 @@ The release build checks the Bun metafile against this list before publication.
 - `supports-color` 8.1.1
 - `zod` 4.5.4
 
-Each executable embeds the Bun 1.4.2 runtime. Bun itself uses the MIT license
+Each executable embeds the Bun 1.4.4 runtime. Bun itself uses the MIT license
 and includes components under other licenses, including JavaScriptCore and
 WebKit components under LGPL-2. Bun's exact
-[license and source terms](https://github.com/oven-sh/bun/blob/bun-v1.4.2/LICENSE.md)
+[license and source terms](https://github.com/oven-sh/bun/blob/bun-v1.4.4/LICENSE.md)
 apply to the embedded runtime.
 
 ## @commander-js/extra-typings 15.0.0
