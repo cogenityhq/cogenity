@@ -24,7 +24,7 @@ The release build checks the Bun metafile against this list before publication.
 - `ms` 2.1.3
 - `paseto-ts` 2.0.7
 - `supports-color` 8.1.1
-- `zod` 4.5.4
+- `zod` 4.6.7
 
 Each executable embeds the Bun 1.4.4 runtime. Bun itself uses the MIT license
 and includes components under other licenses, including JavaScriptCore and
@@ -146,7 +146,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Zod 4.5.4
+## Zod 4.6.7
 
 MIT License
 
