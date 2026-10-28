@@ -165,6 +165,17 @@ after the replacement and the shell `PATH` pass their checks. A failed check
 waits one day before it retries; `cogenity doctor` shows the saved failure.
 Set `COGENITY_UPDATE_CHECK=0` to disable update checks.
 
+### Update recovery
+
+If a standalone installation cannot update, reinstall into its existing directory:
+
+```sh
+curl -fsSL --max-redirs 0 https://cogenity.sh/install.sh | COGENITY_INSTALL_DIR="$(dirname "$(realpath "$(command -v cogenity)")")" sh
+```
+
+The installer verifies the download and keeps your accounts and settings.
+Homebrew and mise installations use `cogenity update`.
+
 ## What Cogenity stores
 
 Profiles live under `~/.config/cogenity`. On macOS, Claude Code credentials
